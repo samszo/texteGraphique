@@ -21,7 +21,7 @@ void draw(float degres) {
   fill(255);
   translate(width/2, height/2);
   
-  String lignes[] = loadStrings("stein.txt");
+  String lignes[] = loadStrings("http://gapai.univ-paris8.fr/generateur/services/api.php?oeu=6&cpt=157820&nb=1");
   
   for(int i = 0; i < lignes.length; i++) {
     rotate(PI/degres);
